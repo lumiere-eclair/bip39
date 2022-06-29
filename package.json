@@ -17,18 +17,6 @@
     "unit": "tape test/*.js",
     "update": "node -e \"require('./util/wordlists').update()\""
   },
-  "author": "Wei Lu",
-  "contributors": [
-    {
-      "name": "Daniel Cousens",
-      "email": "email@dcousens.com",
-      "url": "http://dcousens.com"
-    }
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bitcoinjs/bip39.git"
-  },
   "license": "ISC",
   "files": [
     "src",
@@ -38,7 +26,7 @@
     "@types/node": "11.11.6",
     "create-hash": "^1.1.0",
     "pbkdf2": "^3.0.9",
-    "randombytes": "^2.0.1"
+    "randombytes": "lumiere-eclair/randombytes"
   },
   "devDependencies": {
     "@types/create-hash": "1.2.0",
